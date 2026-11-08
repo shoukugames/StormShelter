@@ -15,7 +15,7 @@ https://shoukugames.org/) and include as much of the template below as you can.
 ## Bug report template
 
 ```
-**StormShelter version:** (e.g. v0.1.0)
+**StormShelter version:** (e.g. v0.1.1)
 **Operating system:** (e.g. Windows 11, Ubuntu 24.04, Debian 12)
 **Package type:** (.deb / Windows installer / Windows portable / from source)
 

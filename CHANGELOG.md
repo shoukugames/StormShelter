@@ -2,6 +2,21 @@
 
 All notable changes to StormShelter are documented here.
 
+## [0.1.1] - 2026-11-08
+
+### Changed
+- Pieces no longer need the mouse button held down. Click a piece once to pick
+  it up, move it to the right spot, and click again to drop it. Holding and
+  dragging still works.
+- Clicking a placed piece now picks it up so it can be moved; right-click turns
+  it.
+- Clicking on the supply box while holding a piece puts it back.
+- Updated the first level hints to describe the new controls.
+
+### Added
+- A **Turn** button next to Undo that turns the piece you are holding (useful
+  on touch screens).
+
 ## [0.1.0] - 2026-11-08
 
 First release.

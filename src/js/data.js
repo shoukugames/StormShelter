@@ -2,7 +2,7 @@
 // Copyright (C) 2026 Shawn Rapaz. Licensed under the GNU GPL v3.0.
 (function (G) {
   const SS = G.SS || (G.SS = {});
-  SS.VERSION = '0.1.0';
+  SS.VERSION = '0.1.1';
   SS.BUILD_TIME = 99;          // seconds of construction time
   SS.SURVIVE_TIME = 5;         // seconds the shelter must survive at full force
   SS.RAMP_TIME = 1.6;          // seconds of storm build-up before the 5 s count

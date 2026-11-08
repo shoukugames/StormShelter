@@ -11,6 +11,7 @@
     pause: '<rect x="5.5" y="4" width="4.5" height="16" rx="1.6" fill="currentColor"/><rect x="14" y="4" width="4.5" height="16" rx="1.6" fill="currentColor"/>',
     undo: st('M9 5L4 10l5 5') + st('M4.5 10H14a6 6 0 0 1 0 12h-3'),
     restart: st('M20 12a8 8 0 1 1-2.6-5.9') + '<path d="M21 3v6h-6z" fill="currentColor"/>',
+    rotate: '<rect x="8.5" y="8.5" width="7" height="7" rx="1.2" fill="#ffa53b" stroke="#d9771a" stroke-width="1.2"/>' + st('M20 12a8 8 0 1 1-2.6-5.9', 2.4) + '<path d="M21 3v6h-6z" fill="currentColor"/>',
     plus: st('M12 5v14M5 12h14', 3.4),
     list: st('M5 6h14M5 12h14M5 18h14', 3),
     broom: '<path d="M14.5 2.5l-4 9" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/><path d="M6.5 11h9l2 10H4.5z" fill="#f2c14e" stroke="#b5862a" stroke-width="1.4" stroke-linejoin="round"/><path d="M8.5 13.5l-1 6M11 13.5v6M13.5 13.5l1 6" stroke="#b5862a" stroke-width="1.2" stroke-linecap="round"/><rect x="6" y="10" width="10" height="2.5" rx="1" fill="#e04f4f"/>',

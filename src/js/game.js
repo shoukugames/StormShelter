@@ -269,8 +269,11 @@
     // ---------- dragging ----------
     beginDrag(type, mat, from, e, angle = 0, id) {
       A.resume();
-      const sp = this.toStage(e);
-      this.drag = { type, mat, from, id, angle, ghost: { type, mat, angle, x: 0, y: 0, ok: true, landY: null } };
+      // pressed: the pointer is still held down since pick-up. Releasing without
+      // moving far turns this into "carry" mode: the piece follows the pointer
+      // until the next click drops it.
+      this.drag = { type, mat, from, id, angle, pressed: true, downX: e.clientX, downY: e.clientY,
+        ghost: { type, mat, angle, x: 0, y: 0, ok: true, landY: null } };
       A.sfx.pick(mat);
       this.moveDrag(e);
       SS.UI.dragging(true);
@@ -329,38 +332,53 @@
     bindInput() {
       const cv = this.canvas;
       cv.addEventListener('contextmenu', (e) => e.preventDefault());
+      // While carrying a piece (button released), the next click anywhere drops it.
+      window.addEventListener('pointerdown', (e) => {
+        const d = this.drag;
+        if (!d || d.pressed) return;
+        const t = e.target;
+        if (t.closest && t.closest('#btnRotate')) return;          // rotate button keeps the piece in hand
+        if (e.button === 2) { e.preventDefault(); e.stopPropagation(); this.rotateDrag(); return; }
+        if (t !== this.canvas && t.closest && t.closest('button, .item, .hint-bubble, .modal')) {
+          if (t.closest('.item')) { this.moveDrag(e); this.endDrag(e); return; }   // returns it; the item click picks the new one
+          this.cancelDrag(); return;                                // other buttons: put the piece back, then act
+        }
+        e.preventDefault(); e.stopPropagation();
+        this.moveDrag(e); this.endDrag(e);
+        this.swallowUp = true;
+      }, true);
       cv.addEventListener('pointerdown', (e) => {
         A.resume();
-        if (this.phase !== 'build') return;
-        if (e.button === 2) { if (this.drag) this.rotateDrag(); return; }
+        if (this.phase !== 'build' || this.drag) return;
         const w = this.toWorld(this.toStage(e));
         const p = this.sim.pieceAt(w.x, w.y);
-        if (p) { this.pending = { piece: p, x: e.clientX, y: e.clientY, pid: e.pointerId }; cv.setPointerCapture(e.pointerId); }
+        if (!p) return;
+        if (e.button === 2) { this.rotatePlaced(p); return; }    // right-click turns a placed piece
+        this.pending = { piece: p, x: e.clientX, y: e.clientY, pid: e.pointerId };
+        cv.setPointerCapture(e.pointerId);
       });
       window.addEventListener('pointermove', (e) => {
         this.lastPointer = { clientX: e.clientX, clientY: e.clientY };
         if (this.pending && !this.drag) {
           const dx = e.clientX - this.pending.x, dy = e.clientY - this.pending.y;
-          if (Math.hypot(dx, dy) > 8 * (this.scale || 1)) {
-            const p = this.pending.piece; this.pending = null;
-            if (this.sim.pieces.includes(p)) {
-              const ang = snapAngle(p.body.getAngle());
-              this.sim.removePiece(p);
-              this.placed = this.placed.filter((id) => id !== p.id);
-              this.supplies[p.type + ':' + p.mat] = (this.supplies[p.type + ':' + p.mat] || 0);
-              this.beginDrag(p.type, p.mat, 'world', e, ang, p.id);
-            }
-          }
+          if (Math.hypot(dx, dy) > 8 * (this.scale || 1)) this.pickUpPlaced(e);
         }
         if (this.drag) this.moveDrag(e);
       });
       window.addEventListener('pointerup', (e) => {
-        if (this.pending) {                      // a tap on a placed piece rotates it
-          const p = this.pending.piece; this.pending = null;
-          if (this.phase === 'build' && this.sim.pieces.includes(p)) this.rotatePlaced(p);
+        if (this.swallowUp) { this.swallowUp = false; return; }
+        if (this.pending) {                      // a click on a placed piece picks it up
+          this.pickUpPlaced(e);
+          if (this.drag) this.drag.pressed = false;
           return;
         }
-        if (this.drag) this.endDrag(e);
+        const d = this.drag;
+        if (!d || !d.pressed) return;
+        if (Math.hypot(e.clientX - d.downX, e.clientY - d.downY) < 12 * (this.scale || 1)) {
+          d.pressed = false;                     // it was a click: keep carrying the piece
+          return;
+        }
+        this.endDrag(e);
       });
       window.addEventListener('pointercancel', () => { this.pending = null; if (this.drag) this.cancelDrag(); });
       window.addEventListener('wheel', (e) => { if (this.drag) { e.preventDefault(); this.rotateDrag(); } }, { passive: false });
@@ -372,6 +390,15 @@
         else if (e.key === 'F11') { e.preventDefault(); SS.UI.fullscreen(); }
       });
       window.addEventListener('beforeunload', () => { if (this.phase === 'build' || this.phase === 'paused') this.saveProgress(); });
+    },
+
+    pickUpPlaced(e) {
+      const p = this.pending && this.pending.piece; this.pending = null;
+      if (!p || this.phase !== 'build' || !this.sim.pieces.includes(p)) return;
+      const ang = snapAngle(p.body.getAngle());
+      this.sim.removePiece(p);
+      this.placed = this.placed.filter((id) => id !== p.id);
+      this.beginDrag(p.type, p.mat, 'world', e, ang, p.id);
     },
 
     rotatePlaced(p) {

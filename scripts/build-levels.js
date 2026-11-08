@@ -84,8 +84,8 @@ function test(lv, design, diff, qMul) {
 
 function hintFor(n, lv) {
   const H = {
-    1: 'Drag pieces from the box to build a wall. Block the wind for the kids!',
-    2: 'Tap a piece to turn it. Make the wall taller than the kids!',
+    1: 'Tap a piece in the box, then tap where it goes. Build a wall to block the wind!',
+    2: 'Use the turn button to spin a piece you are holding. Make the wall taller than the kids!',
     4: 'Rain is coming! Put a roof on top of the kids.',
     6: 'Two friends this time. Make the house big enough!',
     11: 'Look at the arrow - the wind can blow from the other side!',

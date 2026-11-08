@@ -1,7 +1,7 @@
 {
   "name": "storm-shelter",
   "productName": "StormShelter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A physics-based shelter building puzzle game for young children (ages 3+). Build a house that survives the storm!",
   "main": "main.js",
   "homepage": "https://shoukugames.org/",

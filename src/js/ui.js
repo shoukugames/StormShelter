@@ -45,6 +45,7 @@
       document.querySelectorAll('[data-go]').forEach((b) => b.onclick = () => { A.sfx.click(); this.show(b.dataset.go); });
       $('btnPause').onclick = () => { A.sfx.click(); this.pause(); };
       $('btnUndo').onclick = () => Game.undo();
+      $('btnRotate').onclick = () => { if (Game.drag) Game.rotateDrag(); else this.toast('Pick up a piece first, then turn it!'); };
       $('btnClear').onclick = () => Game.clearAll();
       $('btnDone').onclick = () => { A.sfx.click(); Game.done(); };
       $('btnHintClose').onclick = () => this.hideHint();
