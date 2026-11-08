@@ -1,0 +1,300 @@
+easy   1 wind      q= 2.50 kids=1 blocks/straw/straw eased=1 sup={"block:straw":4}
+easy   2 wind      q= 2.70 kids=1 blocks/straw/straw eased=1 sup={"block:straw":4}
+easy   3 wind      q= 2.90 kids=1 blocks/straw/straw eased=1 sup={"block:straw":4}
+easy   4 wind      q= 3.10 kids=1 blocks/straw/straw eased=1 sup={"block:straw":6,"plank:straw":4,"post:straw":1}
+easy   5 wind      q= 3.30 kids=1 blocks/straw/straw eased=1 sup={"block:straw":6,"plank:straw":3}
+easy   6 wind      q= 3.50 kids=2 blocks/straw/straw eased=1 sup={"block:straw":7,"beam:straw":4,"post:straw":1}
+easy   7 wind      q= 3.70 kids=2 blocks/straw/straw eased=1 sup={"block:straw":7,"beam:straw":2,"post:straw":1}
+easy   8 wind      q= 3.90 kids=2 blocks/straw/straw eased=1 sup={"block:straw":6,"beam:straw":4,"roof:straw":2}
+easy   9 wind      q= 4.10 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":3}
+easy  10 wind      q= 4.30 kids=2 blocks/straw/straw eased=1 sup={"block:straw":7,"beam:straw":2,"post:straw":2}
+easy  11 wind      q= 4.50 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":3,"post:straw":2}
+easy  12 wind      q= 4.70 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":3,"roof:straw":2,"post:straw":1}
+easy  13 gale      q= 4.90 kids=2 blocks/straw/straw eased=1 sup={"block:straw":6,"beam:straw":3,"roof:straw":1}
+easy  14 gale      q= 5.10 kids=2 blocks/straw/straw eased=1 sup={"block:straw":7,"beam:straw":3,"roof:straw":1,"post:straw":1}
+easy  15 gale      q= 5.30 kids=2 blocks/straw/straw eased=1 sup={"block:straw":6,"beam:straw":3,"roof:straw":2,"post:straw":1}
+easy  16 gale      q= 5.50 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":2,"block:straw":4,"beam:straw":1,"roof:wood":2}
+easy  17 gale      q= 5.70 kids=3 posts/wood/wood eased=1 sup={"post:wood":5,"beam:wood":4,"block:straw":3,"plank:straw":1,"roof:straw":1}
+easy  18 gale      q= 5.90 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":5,"plank:straw":1,"roof:wood":1}
+easy  19 gale      q= 6.10 kids=3 posts/wood/wood eased=1 sup={"post:wood":3,"beam:wood":4,"block:straw":3,"plank:straw":1}
+easy  20 gale      q= 6.30 kids=3 posts/wood/wood eased=1 sup={"post:wood":3,"beam:wood":4,"block:straw":5,"beam:straw":1}
+easy  21 gale      q= 6.50 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":2,"block:straw":4,"plank:straw":1,"roof:wood":1}
+easy  22 gale      q= 6.70 kids=2 posts/wood/wood eased=1 sup={"post:wood":4,"plank:wood":3,"block:straw":3,"plank:straw":1,"beam:wood":1}
+easy  23 gale      q= 6.90 kids=3 posts/wood/wood eased=1 sup={"post:wood":5,"beam:wood":4,"block:straw":5,"plank:straw":1}
+easy  24 gale      q= 7.10 kids=3 posts/wood/wood eased=1 sup={"post:wood":5,"beam:wood":2,"block:straw":5,"plank:straw":1}
+easy  25 gale      q= 7.30 kids=2 posts/wood/wood eased=1 sup={"post:wood":3,"plank:wood":2,"block:straw":3,"plank:straw":1,"roof:wood":2,"beam:wood":1}
+easy  26 gale      q= 7.50 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:straw":2}
+easy  27 gale      q= 7.70 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":2,"block:straw":3,"beam:straw":1,"roof:straw":2}
+easy  28 gale      q= 7.90 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":2,"plank:straw":1}
+easy  29 gale      q= 8.10 kids=2 posts/wood/wood eased=1 sup={"post:wood":5,"plank:wood":3,"block:straw":4,"beam:straw":1,"roof:wood":1}
+easy  30 gale      q= 8.30 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":3,"beam:straw":1}
+easy  31 gale      q= 8.50 kids=2 posts/wood/wood eased=1 sup={"post:wood":3,"plank:wood":3,"block:straw":3,"plank:straw":1,"roof:wood":1}
+easy  32 gale      q= 8.70 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":4,"block:straw":5,"beam:straw":1}
+easy  33 thunder   q= 8.90 kids=2 posts/wood/wood eased=1 sup={"post:wood":3,"plank:wood":3,"block:straw":3,"beam:straw":1,"beam:wood":1}
+easy  34 thunder   q= 9.10 kids=3 posts/wood/wood eased=1 sup={"post:wood":5,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:straw":1}
+easy  35 thunder   q= 9.30 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":2,"plank:straw":1}
+easy  36 thunder   q= 9.50 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":4,"plank:straw":1,"roof:wood":1}
+easy  37 thunder   q= 9.70 kids=3 posts/wood/wood eased=1 sup={"post:wood":3,"beam:wood":3,"block:straw":4,"beam:straw":1}
+easy  38 thunder   q= 9.90 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":3,"plank:straw":1,"roof:wood":2}
+easy  39 thunder   q=10.10 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":5,"beam:straw":1}
+easy  40 thunder   q=10.30 kids=3 blocks/wood/wood eased=1 sup={"block:wood":10,"plank:wood":2,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:wood":2}
+easy  41 thunder   q=10.50 kids=3 blocks/wood/wood eased=1 sup={"block:wood":7,"beam:wood":3,"block:straw":4,"plank:straw":1,"post:wood":2}
+easy  42 thunder   q=10.70 kids=3 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":3,"block:straw":3,"beam:straw":1}
+easy  43 thunder   q=10.90 kids=3 blocks/wood/wood eased=1 sup={"block:wood":7,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:straw":1}
+easy  44 thunder   q=11.10 kids=3 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":3,"block:straw":4,"beam:straw":1,"post:wood":2}
+easy  45 thunder   q=11.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"plank:wood":4,"beam:wood":3,"block:wood":2,"roof:brick":1,"post:brick":2}
+easy  46 thunder   q=11.50 kids=3 blocks/wood/wood eased=1 sup={"block:wood":6,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:wood":1}
+easy  47 thunder   q=11.70 kids=2 posts/wood/wood eased=1 sup={"post:wood":4,"plank:wood":2,"block:straw":2,"plank:straw":1}
+easy  48 thunder   q=11.90 kids=2 posts/wood/wood eased=1 sup={"post:wood":4,"plank:wood":4,"block:straw":3,"beam:straw":1}
+easy  49 thunder   q=12.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":4,"block:wood":2,"roof:straw":1,"post:brick":1}
+easy  50 thunder   q=12.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"plank:wood":3,"beam:wood":3,"block:straw":5,"plank:straw":1}
+easy  51 thunder   q=12.50 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":4,"block:wood":3,"roof:brick":2,"post:brick":1}
+easy  52 thunder   q=12.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:straw":2,"plank:straw":1}
+easy  53 thunder   q=12.90 kids=3 posts/wood/wood eased=1 sup={"post:wood":4,"beam:wood":3,"block:straw":4,"plank:straw":1,"roof:straw":1}
+easy  54 thunder   q=13.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":4,"block:straw":3,"plank:straw":1,"post:brick":2}
+easy  55 tornado   q=13.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":11,"beam:wood":3,"plank:wood":4,"block:straw":4,"beam:straw":1,"roof:straw":2,"post:brick":2}
+easy  56 tornado   q=13.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":3,"block:wood":3,"roof:wood":1}
+easy  57 tornado   q=13.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":5,"block:wood":3,"roof:brick":1,"post:brick":1}
+easy  58 tornado   q=13.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:wood":2,"post:brick":1}
+easy  59 tornado   q=14.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:brick":2}
+easy  60 tornado   q=14.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":9,"plank:wood":4,"beam:wood":3,"block:straw":4,"beam:straw":1,"roof:straw":2}
+easy  61 tornado   q=14.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":4,"block:straw":4,"plank:straw":1}
+easy  62 tornado   q=14.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":4,"block:wood":3,"post:brick":1}
+easy  63 tornado   q=14.90 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":4,"block:wood":2,"roof:wood":2,"post:brick":2}
+easy  64 tornado   q=15.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:wood":3}
+easy  65 tornado   q=15.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"beam:wood":2,"plank:wood":5,"block:wood":4,"post:brick":1}
+easy  66 tornado   q=15.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":4,"block:wood":5,"roof:straw":2,"post:brick":1}
+easy  67 tornado   q=15.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":4,"block:straw":4,"beam:straw":1,"roof:brick":1,"post:brick":2}
+easy  68 tornado   q=15.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":4,"block:straw":4,"plank:straw":1,"roof:brick":1,"post:brick":2}
+easy  69 tornado   q=16.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:straw":4,"beam:straw":1,"roof:straw":1}
+easy  70 tornado   q=16.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"plank:wood":4,"beam:wood":4,"block:wood":4}
+easy  71 tornado   q=16.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":4,"block:straw":4,"beam:straw":1,"roof:brick":1}
+easy  72 tornado   q=16.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":2,"block:straw":3,"plank:straw":1,"roof:brick":1}
+easy  73 tornado   q=16.90 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:wood":3,"plank:wood":1,"roof:wood":1,"post:brick":2}
+easy  74 tornado   q=17.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:wood":2,"plank:wood":1,"post:brick":1}
+easy  75 tornado   q=17.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"plank:wood":4,"beam:wood":4,"block:wood":4,"roof:straw":2,"post:brick":2}
+easy  76 tornado   q=17.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":2,"block:wood":5,"plank:wood":1,"roof:brick":1,"post:brick":1}
+easy  77 hurricane q=17.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":3,"block:straw":3,"beam:straw":1,"post:brick":1}
+easy  78 hurricane q=17.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":5,"plank:straw":1,"roof:wood":1,"post:brick":2}
+easy  79 hurricane q=18.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":4,"block:wood":5,"plank:wood":1,"roof:brick":2,"post:brick":2}
+easy  80 hurricane q=18.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"beam:wood":2,"plank:wood":2,"block:straw":5,"beam:straw":1,"roof:brick":1}
+easy  81 hurricane q=18.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":4,"plank:wood":1,"post:brick":1}
+easy  82 hurricane q=18.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":3,"block:straw":2,"beam:straw":1,"roof:wood":2,"post:brick":2}
+easy  83 hurricane q=18.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:straw":4,"beam:straw":1,"roof:brick":2}
+easy  84 hurricane q=19.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":4,"block:wood":4,"post:brick":1}
+easy  85 hurricane q=19.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":11,"plank:wood":5,"beam:wood":2,"block:wood":4,"roof:brick":2,"post:brick":1}
+easy  86 hurricane q=19.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":4,"block:wood":2}
+easy  87 hurricane q=19.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":5,"block:wood":4,"post:brick":1}
+easy  88 hurricane q=19.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":7,"beam:wood":3,"block:straw":3,"plank:straw":1,"roof:wood":1,"post:brick":2}
+easy  89 hurricane q=20.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:straw":2,"beam:straw":1}
+easy  90 hurricane q=20.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":11,"plank:wood":3,"beam:wood":2,"block:straw":3,"plank:straw":1,"roof:straw":2,"post:brick":1}
+easy  91 hurricane q=20.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":5,"beam:straw":1,"roof:wood":1}
+easy  92 hurricane q=20.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":4,"block:wood":4,"plank:wood":1,"roof:brick":1,"post:brick":2}
+easy  93 hurricane q=20.90 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":4,"plank:straw":1,"post:brick":2}
+easy  94 hurricane q=21.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":3,"plank:straw":1,"roof:brick":1,"post:brick":2}
+easy  95 hurricane q=21.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":9,"plank:wood":4,"beam:wood":3,"block:wood":4,"post:brick":1}
+easy  96 hurricane q=21.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":4,"block:straw":5,"plank:straw":1,"post:brick":1}
+easy  97 hurricane q=21.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":5,"beam:straw":1,"roof:brick":2}
+easy  98 hurricane q=21.90 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":5,"block:wood":5,"post:brick":2}
+easy  99 hurricane q=22.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":3,"plank:straw":1}
+easy 100 hurricane q=22.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"beam:wood":3,"plank:wood":2,"block:straw":3,"plank:straw":1,"roof:brick":1}
+medium   1 wind      q= 2.50 kids=1 blocks/straw/straw eased=1 sup={"block:straw":3}
+medium   2 wind      q= 2.70 kids=1 blocks/straw/straw eased=1 sup={"block:straw":3}
+medium   3 wind      q= 2.90 kids=1 blocks/straw/straw eased=1 sup={"block:straw":4}
+medium   4 wind      q= 3.10 kids=1 blocks/straw/straw eased=1 sup={"block:straw":5,"plank:straw":2,"post:straw":1}
+medium   5 wind      q= 3.30 kids=1 blocks/straw/straw eased=1 sup={"block:straw":6,"plank:straw":3,"beam:straw":1}
+medium   6 wind      q= 3.50 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":2,"post:straw":1}
+medium   7 wind      q= 3.70 kids=2 blocks/straw/straw eased=1 sup={"block:straw":6,"beam:straw":3,"post:straw":1}
+medium   8 wind      q= 3.90 kids=2 blocks/straw/straw eased=1 sup={"block:straw":6,"beam:straw":2,"post:straw":1}
+medium   9 wind      q= 4.10 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":2,"roof:straw":2,"post:straw":2}
+medium  10 wind      q= 4.30 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":2,"roof:straw":2,"post:straw":2}
+medium  11 wind      q= 4.50 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":2,"roof:straw":1,"post:straw":1}
+medium  12 wind      q= 4.70 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":3,"roof:straw":1,"post:straw":1}
+medium  13 gale      q= 4.90 kids=2 posts/wood/wood eased=1 sup={"post:wood":3,"plank:wood":2,"block:straw":3,"beam:straw":1,"roof:straw":1}
+medium  14 gale      q= 5.10 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:straw":1}
+medium  15 gale      q= 5.30 kids=2 posts/wood/wood eased=1 sup={"post:wood":3,"plank:wood":3,"block:straw":5,"beam:straw":1}
+medium  16 gale      q= 5.50 kids=3 posts/wood/wood eased=1 sup={"post:wood":3,"beam:wood":2,"block:straw":3,"plank:straw":1}
+medium  17 gale      q= 5.70 kids=3 blocks/wood/wood eased=1 sup={"block:wood":6,"beam:wood":2,"block:straw":3,"beam:straw":1}
+medium  18 gale      q= 5.90 kids=3 posts/wood/wood eased=1 sup={"post:wood":3,"beam:wood":2,"block:straw":3,"beam:straw":1}
+medium  19 gale      q= 6.10 kids=3 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":3,"plank:straw":1,"post:wood":2}
+medium  20 gale      q= 6.30 kids=3 blocks/wood/wood eased=1 sup={"block:wood":6,"beam:wood":3,"block:straw":4,"beam:straw":1,"post:wood":1}
+medium  21 gale      q= 6.50 kids=3 blocks/wood/wood eased=1 sup={"block:wood":6,"beam:wood":2,"block:straw":4,"beam:straw":1,"roof:wood":2}
+medium  22 gale      q= 6.70 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":3,"beam:straw":1,"roof:straw":1,"post:wood":1}
+medium  23 gale      q= 6.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:wood":2,"plank:wood":1}
+medium  24 gale      q= 7.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:wood":2,"roof:wood":1,"post:brick":1}
+medium  25 gale      q= 7.30 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":4,"plank:straw":1}
+medium  26 gale      q= 7.50 kids=3 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":5,"plank:straw":1,"roof:wood":1}
+medium  27 gale      q= 7.70 kids=3 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":3,"block:straw":3,"beam:straw":1,"roof:straw":2}
+medium  28 gale      q= 7.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":3,"plank:wood":1,"roof:wood":2}
+medium  29 gale      q= 8.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":3,"beam:straw":1,"roof:brick":1,"post:brick":1}
+medium  30 gale      q= 8.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":4,"block:wood":3,"roof:wood":1,"post:brick":1}
+medium  31 gale      q= 8.50 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:straw":4,"beam:straw":1,"roof:straw":2,"post:brick":1}
+medium  32 gale      q= 8.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:straw":2,"beam:straw":1,"roof:straw":1,"post:brick":1}
+medium  33 thunder   q= 8.90 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:straw":2,"beam:straw":1}
+medium  34 thunder   q= 9.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":4,"plank:straw":1,"roof:brick":1}
+medium  35 thunder   q= 9.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":2,"plank:wood":1,"roof:straw":2}
+medium  36 thunder   q= 9.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:wood":5,"plank:wood":1,"roof:wood":1,"post:brick":1}
+medium  37 thunder   q= 9.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:straw":3,"beam:straw":1,"roof:straw":1,"post:brick":1}
+medium  38 thunder   q= 9.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":3,"beam:straw":1,"post:brick":1}
+medium  39 thunder   q=10.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":3,"plank:straw":1,"post:brick":1}
+medium  40 thunder   q=10.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":9,"plank:wood":3,"beam:wood":2,"block:wood":4,"roof:wood":1,"post:brick":1}
+medium  41 thunder   q=10.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:straw":3,"plank:straw":1}
+medium  42 thunder   q=10.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:wood":4,"plank:wood":1,"roof:wood":1}
+medium  43 thunder   q=10.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":4,"plank:straw":1}
+medium  44 thunder   q=11.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":4,"plank:straw":1}
+medium  45 thunder   q=11.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":10,"plank:wood":2,"beam:wood":3,"block:straw":3,"beam:straw":1,"post:brick":1}
+medium  46 thunder   q=11.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:straw":5,"plank:straw":1,"post:brick":1}
+medium  47 thunder   q=11.70 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":5,"plank:straw":1}
+medium  48 thunder   q=11.90 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":4,"plank:straw":1,"roof:straw":1}
+medium  49 thunder   q=12.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:wood":4,"post:brick":1}
+medium  50 thunder   q=12.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":9,"plank:wood":3,"beam:wood":2,"block:wood":4,"post:brick":1}
+medium  51 thunder   q=12.50 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":3,"block:wood":2,"beam:wood":1}
+medium  52 thunder   q=12.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":3,"block:wood":2}
+medium  53 thunder   q=12.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":3,"plank:wood":1,"roof:brick":1}
+medium  54 thunder   q=13.10 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":4,"plank:wood":1}
+medium  55 tornado   q=13.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":9,"beam:wood":2,"plank:wood":3,"block:wood":4,"roof:brick":1,"post:brick":1}
+medium  56 tornado   q=13.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:wood":4,"roof:straw":2}
+medium  57 tornado   q=13.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:straw":4,"plank:straw":1,"post:brick":2}
+medium  58 tornado   q=13.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:wood":2,"roof:wood":1,"post:brick":2}
+medium  59 tornado   q=14.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":4,"beam:straw":1}
+medium  60 tornado   q=14.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":9,"plank:wood":2,"beam:wood":2,"block:straw":2,"beam:straw":1,"roof:wood":2,"post:brick":1}
+medium  61 tornado   q=14.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":6,"beam:wood":2,"block:straw":4,"beam:straw":1}
+medium  62 tornado   q=14.70 kids=3 blocks/brick/brick eased=1 sup={"block:brick":6,"beam:brick":2,"block:straw":4,"beam:straw":1,"roof:straw":1,"post:brick":1}
+medium  63 tornado   q=14.90 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":3,"plank:straw":1}
+medium  64 tornado   q=15.10 kids=3 blocks/brick/brick eased=1 sup={"block:brick":6,"beam:brick":2,"block:straw":4,"plank:straw":1,"roof:straw":1,"post:brick":2}
+medium  65 tornado   q=15.30 kids=3 blocks/brick/brick eased=1 sup={"block:brick":9,"beam:brick":2,"plank:brick":2,"block:wood":2,"plank:wood":1,"roof:brick":1}
+medium  66 tornado   q=15.50 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":2,"beam:straw":1,"post:brick":2}
+medium  67 tornado   q=15.70 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":3,"block:wood":4,"beam:wood":1,"roof:straw":2}
+medium  68 tornado   q=15.90 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":5,"beam:wood":1,"roof:straw":1}
+medium  69 tornado   q=16.10 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":2,"beam:straw":1,"roof:brick":1,"post:brick":1}
+medium  70 tornado   q=16.30 kids=3 blocks/brick/brick eased=1 sup={"block:brick":9,"plank:brick":3,"beam:brick":2,"block:straw":4,"plank:straw":1,"roof:straw":2}
+medium  71 tornado   q=16.50 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":3,"block:wood":4,"beam:wood":1,"roof:brick":2}
+medium  72 tornado   q=16.70 kids=3 blocks/brick/brick eased=1 sup={"block:brick":6,"beam:brick":2,"block:straw":4,"plank:straw":1,"post:brick":1}
+medium  73 tornado   q=16.90 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":3,"block:wood":4,"beam:wood":1}
+medium  74 tornado   q=17.10 kids=3 blocks/brick/brick eased=1 sup={"block:brick":6,"beam:brick":2,"block:wood":2,"plank:wood":1,"roof:brick":1,"post:brick":2}
+medium  75 tornado   q=17.30 kids=3 blocks/brick/brick eased=1 sup={"block:brick":10,"plank:brick":2,"beam:brick":3,"block:wood":4,"plank:wood":1,"roof:straw":1,"post:brick":1}
+medium  76 tornado   q=17.50 kids=3 blocks/brick/brick eased=1 sup={"block:brick":6,"beam:brick":2,"block:straw":3,"beam:straw":1}
+medium  77 hurricane q=17.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":6,"beam:brick":2,"block:wood":3,"beam:wood":1,"roof:wood":2,"post:stone":1}
+medium  78 hurricane q=17.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":5,"plank:straw":1,"roof:brick":1,"post:stone":1}
+medium  79 hurricane q=18.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":5,"beam:straw":1,"roof:straw":2,"post:stone":2}
+medium  80 hurricane q=18.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":10,"beam:brick":2,"plank:brick":3,"block:brick":3,"roof:brick":1}
+medium  81 hurricane q=18.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":2,"beam:straw":1,"roof:brick":2}
+medium  82 hurricane q=18.70 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":3,"beam:wood":1,"post:brick":1}
+medium  83 hurricane q=18.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":4,"plank:straw":1,"post:stone":1}
+medium  84 hurricane q=19.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":2,"plank:straw":1,"roof:brick":1,"post:stone":2}
+medium  85 hurricane q=19.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"plank:brick":3,"beam:brick":2,"block:brick":4}
+medium  86 hurricane q=19.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":3,"plank:straw":1}
+medium  87 hurricane q=19.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":4,"beam:straw":1,"roof:stone":1,"post:stone":1}
+medium  88 hurricane q=19.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:wood":5,"plank:wood":1,"post:stone":1}
+medium  89 hurricane q=20.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":6,"beam:brick":2,"block:wood":2,"beam:wood":1}
+medium  90 hurricane q=20.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"plank:brick":3,"beam:brick":2,"block:brick":3,"roof:wood":2}
+medium  91 hurricane q=20.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":3,"beam:straw":1,"post:stone":1}
+medium  92 hurricane q=20.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":4,"beam:straw":1}
+medium  93 hurricane q=20.90 kids=2 blocks/stone/brick eased=1 sup={"block:stone":6,"beam:brick":2,"block:straw":3,"beam:straw":1,"roof:brick":2,"post:stone":1}
+medium  94 hurricane q=21.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":3,"beam:straw":1,"roof:brick":2}
+medium  95 hurricane q=21.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":10,"plank:brick":2,"beam:brick":2,"block:straw":4,"beam:straw":1,"roof:straw":1}
+medium  96 hurricane q=21.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":3,"block:wood":3,"beam:wood":1,"post:stone":1}
+medium  97 hurricane q=21.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":6,"beam:brick":4,"block:brick":4}
+medium  98 hurricane q=21.90 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":4,"beam:straw":1}
+medium  99 hurricane q=22.10 kids=2 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:brick":4,"plank:brick":1,"post:stone":1}
+medium 100 hurricane q=22.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":10,"beam:brick":2,"plank:brick":2,"block:straw":3,"plank:straw":1,"roof:brick":1,"post:stone":1}
+hard   1 wind      q= 2.50 kids=1 blocks/straw/straw eased=1 sup={"block:straw":3}
+hard   2 wind      q= 2.70 kids=1 blocks/straw/straw eased=1 sup={"block:straw":3}
+hard   3 wind      q= 2.90 kids=1 blocks/straw/straw eased=1 sup={"block:straw":2}
+hard   4 wind      q= 3.10 kids=1 posts/wood/wood eased=1 sup={"post:wood":3,"plank:wood":2,"block:straw":2,"beam:straw":1,"beam:wood":1}
+hard   5 wind      q= 3.30 kids=1 posts/wood/wood eased=1 sup={"post:wood":2,"plank:wood":2,"block:straw":4,"beam:straw":1,"beam:wood":1}
+hard   6 wind      q= 3.50 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":2,"beam:straw":1,"post:wood":1}
+hard   7 wind      q= 3.70 kids=2 blocks/straw/straw eased=1 sup={"block:straw":5,"beam:straw":1,"post:straw":1}
+hard   8 wind      q= 3.90 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":4,"beam:straw":1}
+hard   9 wind      q= 4.10 kids=2 blocks/wood/wood eased=1 sup={"block:wood":4,"beam:wood":2,"block:straw":4,"beam:straw":1,"roof:wood":2,"post:wood":1}
+hard  10 wind      q= 4.30 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":1,"block:straw":3,"beam:straw":1,"roof:wood":2}
+hard  11 wind      q= 4.50 kids=2 blocks/wood/wood eased=1 sup={"block:wood":4,"beam:wood":2,"block:straw":3,"beam:straw":1,"roof:wood":1}
+hard  12 wind      q= 4.70 kids=2 blocks/wood/wood eased=1 sup={"block:wood":4,"beam:wood":2,"block:straw":3,"beam:straw":1,"roof:straw":2,"post:wood":1}
+hard  13 gale      q= 4.90 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":4,"plank:straw":1,"post:wood":1}
+hard  14 gale      q= 5.10 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":3,"plank:straw":1,"roof:straw":1}
+hard  15 gale      q= 5.30 kids=2 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":4,"beam:straw":1,"roof:straw":2,"post:wood":1}
+hard  16 gale      q= 5.50 kids=3 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":1,"block:straw":4,"beam:straw":1,"roof:wood":2,"post:wood":1}
+hard  17 gale      q= 5.70 kids=3 blocks/wood/wood eased=1 sup={"block:wood":5,"beam:wood":2,"block:straw":3,"plank:straw":1,"roof:straw":1,"post:wood":1}
+hard  18 gale      q= 5.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":5,"plank:wood":1,"roof:brick":1,"post:brick":1}
+hard  19 gale      q= 6.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":4,"beam:wood":2,"block:wood":3,"plank:wood":1,"post:brick":1}
+hard  20 gale      q= 6.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":4,"beam:wood":2,"block:straw":5,"beam:straw":1}
+hard  21 gale      q= 6.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":1,"block:straw":4,"plank:straw":1,"roof:brick":1,"post:brick":1}
+hard  22 gale      q= 6.70 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":3,"plank:wood":1}
+hard  23 gale      q= 6.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":5,"plank:wood":1}
+hard  24 gale      q= 7.10 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":1,"block:wood":5,"plank:wood":1}
+hard  25 gale      q= 7.30 kids=2 blocks/brick/wood eased=1 sup={"block:brick":4,"beam:wood":1,"block:wood":3,"plank:wood":1,"roof:brick":2,"post:brick":1}
+hard  26 gale      q= 7.50 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":3,"beam:straw":1,"roof:wood":2}
+hard  27 gale      q= 7.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:wood":3,"roof:straw":2,"post:brick":1}
+hard  28 gale      q= 7.90 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":2,"plank:straw":1,"post:brick":1}
+hard  29 gale      q= 8.10 kids=2 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":3,"block:wood":4,"roof:brick":1,"post:brick":1}
+hard  30 gale      q= 8.30 kids=3 blocks/brick/wood eased=1 sup={"block:brick":4,"beam:wood":3,"block:wood":3,"post:brick":1}
+hard  31 gale      q= 8.50 kids=2 blocks/brick/wood eased=1 sup={"block:brick":4,"beam:wood":2,"block:wood":3,"plank:wood":1,"roof:brick":1,"post:brick":1}
+hard  32 gale      q= 8.70 kids=3 blocks/brick/wood eased=1 sup={"block:brick":5,"beam:wood":2,"block:straw":5,"beam:straw":1,"post:brick":1}
+hard  33 thunder   q= 8.90 kids=2 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":1,"block:wood":3,"beam:wood":1,"post:brick":1}
+hard  34 thunder   q= 9.10 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":3,"beam:wood":1,"roof:straw":1}
+hard  35 thunder   q= 9.30 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":2,"plank:straw":1}
+hard  36 thunder   q= 9.50 kids=3 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":2,"block:wood":4,"plank:wood":1,"roof:wood":1,"post:brick":1}
+hard  37 thunder   q= 9.70 kids=3 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":2,"block:wood":4,"beam:wood":1}
+hard  38 thunder   q= 9.90 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":3,"plank:wood":1,"roof:brick":2,"post:brick":1}
+hard  39 thunder   q=10.10 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":5,"beam:wood":1}
+hard  40 thunder   q=10.30 kids=3 blocks/brick/brick eased=1 sup={"block:brick":9,"plank:brick":1,"beam:brick":1,"block:straw":3,"beam:straw":1,"roof:wood":2}
+hard  41 thunder   q=10.50 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":4,"plank:straw":1,"post:brick":1}
+hard  42 thunder   q=10.70 kids=3 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":2,"block:wood":3,"beam:wood":1}
+hard  43 thunder   q=10.90 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":3,"beam:wood":1,"roof:wood":1}
+hard  44 thunder   q=11.10 kids=3 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":2,"block:straw":4,"beam:straw":1,"post:brick":1}
+hard  45 thunder   q=11.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"plank:brick":3,"beam:brick":2,"block:brick":2,"roof:stone":1,"post:stone":1}
+hard  46 thunder   q=11.50 kids=3 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":1,"block:straw":3,"beam:straw":1,"roof:brick":1}
+hard  47 thunder   q=11.70 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":1,"block:wood":2,"plank:wood":1}
+hard  48 thunder   q=11.90 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":3,"beam:straw":1}
+hard  49 thunder   q=12.10 kids=2 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":1,"block:wood":2,"beam:wood":1,"roof:straw":1,"post:brick":1}
+hard  50 thunder   q=12.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":8,"plank:brick":1,"beam:brick":1,"block:wood":5,"plank:wood":1}
+hard  51 thunder   q=12.50 kids=2 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:wood":3,"beam:wood":1,"roof:brick":2,"post:brick":1}
+hard  52 thunder   q=12.70 kids=3 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":2,"block:straw":2,"plank:straw":1}
+hard  53 thunder   q=12.90 kids=3 blocks/brick/brick eased=1 sup={"block:brick":5,"beam:brick":2,"block:straw":4,"plank:straw":1,"roof:straw":1,"post:brick":1}
+hard  54 thunder   q=13.10 kids=3 blocks/brick/brick eased=1 sup={"block:brick":4,"beam:brick":2,"block:straw":3,"plank:straw":1,"post:brick":1}
+hard  55 tornado   q=13.30 kids=3 blocks/brick/brick eased=1 sup={"block:brick":9,"beam:brick":2,"plank:brick":2,"block:straw":4,"beam:straw":1,"roof:straw":2,"post:brick":1}
+hard  56 tornado   q=13.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:wood":3,"beam:wood":1,"roof:brick":1}
+hard  57 tornado   q=13.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":3,"block:brick":3,"roof:stone":1,"post:stone":1}
+hard  58 tornado   q=13.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:brick":2,"post:stone":1}
+hard  59 tornado   q=14.10 kids=2 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:wood":3,"beam:wood":1,"roof:stone":2}
+hard  60 tornado   q=14.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":8,"plank:brick":2,"beam:brick":2,"block:straw":4,"beam:straw":1,"roof:straw":2}
+hard  61 tornado   q=14.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:wood":4,"plank:wood":1}
+hard  62 tornado   q=14.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":2,"block:wood":3,"beam:wood":1,"post:stone":1}
+hard  63 tornado   q=14.90 kids=2 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":3,"block:brick":2,"roof:wood":2,"post:stone":1}
+hard  64 tornado   q=15.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:brick":3}
+hard  65 tornado   q=15.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"beam:brick":1,"plank:brick":3,"block:brick":4,"post:stone":1}
+hard  66 tornado   q=15.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":2,"block:wood":5,"beam:wood":1,"roof:wood":2,"post:stone":1}
+hard  67 tornado   q=15.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":4,"beam:straw":1,"roof:stone":1,"post:stone":1}
+hard  68 tornado   q=15.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":4,"plank:straw":1,"roof:stone":1,"post:stone":1}
+hard  69 tornado   q=16.10 kids=2 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":2,"block:straw":4,"beam:straw":1,"roof:straw":1}
+hard  70 tornado   q=16.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"plank:brick":3,"beam:brick":2,"block:brick":4}
+hard  71 tornado   q=16.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:wood":4,"beam:wood":1,"roof:stone":1}
+hard  72 tornado   q=16.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:straw":3,"plank:straw":1,"roof:stone":1}
+hard  73 tornado   q=16.90 kids=2 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:wood":3,"plank:wood":1,"roof:brick":1,"post:stone":1}
+hard  74 tornado   q=17.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:brick":2,"plank:brick":1,"post:stone":1}
+hard  75 tornado   q=17.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":8,"plank:brick":2,"beam:brick":3,"block:brick":4,"roof:wood":2,"post:stone":1}
+hard  76 tornado   q=17.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:wood":5,"plank:wood":1,"roof:stone":1,"post:stone":1}
+hard  77 hurricane q=17.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:straw":3,"beam:straw":1,"post:stone":1}
+hard  78 hurricane q=17.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":2,"block:wood":5,"plank:wood":1,"roof:brick":1,"post:stone":1}
+hard  79 hurricane q=18.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:wood":5,"plank:wood":1,"roof:stone":2,"post:stone":1}
+hard  80 hurricane q=18.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"beam:brick":1,"plank:brick":1,"block:wood":5,"beam:wood":1,"roof:brick":1}
+hard  81 hurricane q=18.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":1,"block:brick":4,"plank:brick":1,"post:stone":1}
+hard  82 hurricane q=18.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:wood":2,"beam:wood":1,"roof:wood":2,"post:stone":1}
+hard  83 hurricane q=18.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":2,"block:straw":4,"beam:straw":1,"roof:stone":2}
+hard  84 hurricane q=19.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":3,"block:brick":4,"post:stone":1}
+hard  85 hurricane q=19.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"plank:brick":3,"beam:brick":1,"block:brick":4,"roof:stone":2,"post:stone":1}
+hard  86 hurricane q=19.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":3,"block:brick":2}
+hard  87 hurricane q=19.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":3,"block:brick":4,"post:stone":1}
+hard  88 hurricane q=19.90 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":1,"block:straw":3,"plank:straw":1,"roof:wood":1,"post:stone":1}
+hard  89 hurricane q=20.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":2,"block:wood":2,"beam:wood":1}
+hard  90 hurricane q=20.30 kids=3 blocks/stone/brick eased=1 sup={"block:stone":9,"plank:brick":2,"beam:brick":1,"block:wood":3,"plank:wood":1,"roof:straw":2,"post:stone":1}
+hard  91 hurricane q=20.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":5,"beam:straw":1,"roof:brick":1}
+hard  92 hurricane q=20.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":4,"beam:brick":2,"block:brick":4,"plank:brick":1,"roof:brick":1,"post:stone":1}
+hard  93 hurricane q=20.90 kids=2 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":4,"plank:straw":1,"post:stone":1}
+hard  94 hurricane q=21.10 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":3,"plank:straw":1,"roof:stone":1,"post:stone":1}
+hard  95 hurricane q=21.30 kids=3 blocks/stone/stone eased=1 sup={"block:stone":8,"plank:stone":2,"beam:stone":2,"block:brick":4,"plank:brick":1,"post:stone":1}
+hard  96 hurricane q=21.50 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":5,"plank:straw":1,"post:stone":1}
+hard  97 hurricane q=21.70 kids=3 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":5,"beam:straw":1,"roof:stone":2}
+hard  98 hurricane q=21.90 kids=2 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":3,"block:brick":5,"post:stone":1}
+hard  99 hurricane q=22.10 kids=2 blocks/stone/brick eased=1 sup={"block:stone":5,"beam:brick":2,"block:straw":3,"plank:straw":1}
+hard 100 hurricane q=20.52 kids=3 blocks/stone/brick eased=0.92 sup={"block:stone":9,"beam:brick":2,"plank:brick":1,"block:wood":3,"plank:wood":1,"roof:stone":1}

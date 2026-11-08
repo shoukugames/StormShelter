@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' data: blob:">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StormShelter</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="game"></canvas>
+
+  <!-- ================= TITLE ================= -->
+  <section id="title" class="screen active">
+    <div class="logo">
+      <svg class="logo-icon" viewBox="0 0 120 100" aria-hidden="true">
+        <defs>
+          <linearGradient id="lgRoof" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ff7a59"/><stop offset="1" stop-color="#d9442b"/></linearGradient>
+          <linearGradient id="lgWall" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffe7b0"/><stop offset="1" stop-color="#f0c674"/></linearGradient>
+        </defs>
+        <path d="M18 38 Q14 18 34 18 Q38 4 56 8 Q70 0 80 12 Q100 10 98 30 Q110 36 100 46 L22 46 Q8 44 18 38Z" fill="#e8f1fb" stroke="#9fb6cf" stroke-width="2"/>
+        <path d="M40 56 L60 40 L80 56Z" fill="url(#lgRoof)" stroke="#8e2a19" stroke-width="2.5" stroke-linejoin="round"/>
+        <rect x="45" y="56" width="30" height="26" rx="2" fill="url(#lgWall)" stroke="#8e6a2a" stroke-width="2.5"/>
+        <rect x="56" y="66" width="9" height="16" rx="1.5" fill="#8b5a2b"/>
+        <path d="M30 60 l-6 10 M24 58 l-6 10 M98 60 l-6 10 M92 58 l-6 10" stroke="#7fb6ff" stroke-width="3" stroke-linecap="round"/>
+        <path d="M6 88 Q60 80 114 88" stroke="#5cb043" stroke-width="6" fill="none" stroke-linecap="round"/>
+      </svg>
+      <h1><span class="l1">Storm</span><span class="l2">Shelter</span></h1>
+      <p class="tagline">Build a house that can survive the storm!</p>
+    </div>
+    <div class="title-menu">
+      <button id="btnPlay" class="btn big green"><i data-icon="play"></i> Play</button>
+      <div class="row">
+        <div class="seg" id="diffSeg" role="radiogroup" aria-label="Difficulty">
+          <button data-diff="easy"><i data-icon="faceEasy"></i> Easy</button>
+          <button data-diff="medium"><i data-icon="faceMed"></i> Medium</button>
+          <button data-diff="hard"><i data-icon="faceHard"></i> Hard</button>
+        </div>
+      </div>
+      <div class="row">
+        <button id="btnBgm" class="btn toggle"></button>
+        <button id="btnSfx" class="btn toggle"></button>
+      </div>
+      <div class="row">
+        <button id="btnParents" class="btn purple"><i data-icon="family"></i> For Parents</button>
+        <button id="btnCredits" class="btn blue"><i data-icon="star"></i> Credits</button>
+      </div>
+      <div class="row small">
+        <button id="btnFull" class="btn ghost"><i data-icon="fullscreen"></i> Fullscreen</button>
+        <button id="btnQuit" class="btn ghost"><i data-icon="power"></i> Quit</button>
+      </div>
+    </div>
+    <div class="age-badge"><b>3+</b><span>Ages</span></div>
+    <div class="version">v0.1.0 · Shouku Games</div>
+  </section>
+
+  <!-- ================= SAVE SLOTS ================= -->
+  <section id="slots" class="screen">
+    <header class="screen-head">
+      <button class="btn round back" data-go="title" aria-label="Back"><i data-icon="back"></i></button>
+      <h2>Choose a Save</h2>
+      <div class="diff-pill" id="slotsDiff"></div>
+    </header>
+    <div class="slot-list" id="slotList"></div>
+  </section>
+
+  <!-- ================= LEVEL SELECT ================= -->
+  <section id="levels" class="screen">
+    <header class="screen-head">
+      <button class="btn round back" data-go="slots" aria-label="Back"><i data-icon="back"></i></button>
+      <h2 id="levelsTitle">Levels</h2>
+      <div class="head-stats" id="levelsStats"></div>
+    </header>
+    <div id="resumeBar" class="resume-bar hidden">
+      <span id="resumeText"></span>
+      <button id="btnResume" class="btn green"><i data-icon="play"></i> Resume</button>
+    </div>
+    <div class="storm-tabs" id="stormTabs"></div>
+    <div class="level-grid" id="levelGrid"></div>
+  </section>
+
+  <!-- ================= GAME HUD ================= -->
+  <section id="hud" class="screen hud">
+    <div class="hud-top">
+      <button id="btnPause" class="btn round" aria-label="Pause"><i data-icon="pause"></i></button>
+      <div class="lvl-chip"><span id="hudLevel">Level 1</span><small id="hudStorm">High Winds</small></div>
+      <div class="warning" id="warning"><div class="warn-scroll" id="warnText"></div></div>
+      <div class="wind-chip" id="windChip" title="Wind direction"><span class="wind-arrow" id="windArrow"><i data-icon="arrow"></i></span><small id="windLabel">Wind</small></div>
+      <div class="timer" id="timer"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" class="bg"/><circle cx="50" cy="50" r="44" class="fg" id="timerRing"/></svg><span id="timerText">99</span></div>
+    </div>
+    <div class="hint-bubble hidden" id="hint"><span id="hintText"></span><button class="btn round tiny" id="btnSpeak" aria-label="Read aloud"><i data-icon="speaker"></i></button><button class="btn round tiny" id="btnHintClose" aria-label="Close"><i data-icon="close"></i></button></div>
+    <div class="storm-count hidden" id="stormCount"></div>
+    <div class="storm-banner hidden" id="stormBanner"></div>
+    <div class="tray" id="tray">
+      <div class="tray-items" id="trayItems"></div>
+      <div class="tray-actions">
+        <button id="btnUndo" class="btn round" title="Undo"><i data-icon="undo"></i></button>
+        <button id="btnClear" class="btn round" title="Take everything back"><i data-icon="broom"></i></button>
+        <button id="btnDone" class="btn done">Done! <span><i data-icon="check"></i></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MODALS ================= -->
+  <div id="modal" class="modal hidden">
+    <div class="panel" id="panel"></div>
+  </div>
+  <div id="toast" class="toast"></div>
+</div>
+
+<script src="lib/planck.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/levels-data.js"></script>
+<script src="js/physics.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/save.js"></script>
+<script src="js/render.js"></script>
+<script src="js/game.js"></script>
+<script src="js/ui.js"></script>
+</body>
+</html>
