@@ -59,6 +59,16 @@ Click-and-hold dragging still works too: press on a piece, drag it and let go.
 the kids when it rains, and use heavier materials for strong storms. In tornado
 levels the wind changes direction, so build walls on both sides.
 
+## Play in the browser
+
+StormShelter also runs in a web browser, on computers, phones and tablets, with nothing to
+install: <https://shoukugames.org/play/storm-shelter/> (test page). Tap a piece, then tap
+where it goes. Saves are kept in the browser.
+
+The `src/` folder is the whole game: serve or upload it as-is. `src/js/web-fit.js` scales the
+layout to fit phone screens (desktop browsers and the app ignore it), and the Quit button is
+hidden in browsers.
+
 ## Installing
 
 Pre-built packages are created in `dist/`:

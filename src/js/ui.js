@@ -41,6 +41,8 @@
       $('btnParents').onclick = () => { A.sfx.click(); this.parentGate(() => this.showParents(Save.settings.lastSlot || 0)); };
       $('btnCredits').onclick = () => { A.sfx.click(); this.showCredits(); };
       $('btnFull').onclick = () => { A.sfx.click(); this.fullscreen(); };
+      // In a web browser there is nothing to quit to (a page can't close its own tab).
+      if (!window.ssNative) $('btnQuit').style.display = 'none';
       $('btnQuit').onclick = () => { A.sfx.click(); this.confirm('Quit StormShelter?', 'See you next time!', () => { if (window.ssNative) window.ssNative.quit(); else window.close(); }); };
       document.querySelectorAll('[data-go]').forEach((b) => b.onclick = () => { A.sfx.click(); this.show(b.dataset.go); });
       $('btnPause').onclick = () => { A.sfx.click(); this.pause(); };
