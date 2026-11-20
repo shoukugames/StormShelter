@@ -1,0 +1,12 @@
+{
+ "_note": "Replace identity_name, publisher and publisher_display_name with the values from Partner Center (Product management -> Product identity) before uploading to the Microsoft Store.",
+ "identity_name": "ShoukuGames.StormShelter",
+ "publisher": "CN=ShoukuGamesPlaceholder",
+ "publisher_display_name": "Shouku Games",
+ "display_name": "StormShelter",
+ "description": "A storm is coming! Build a shelter for the kids from straw, wood, brick and stone, then see if it survives the wind and rain with real physics.",
+ "file_name": "StormShelter",
+ "exe_name": "StormShelter.exe",
+ "alias": "shouku-storm-shelter.exe",
+ "device_capabilities": []
+}
